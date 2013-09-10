@@ -23,10 +23,8 @@
 		807534F917DF0C780087A8F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		807534FB17DF0C780087A8F3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		807534FD17DF0C780087A8F3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		8075350117DF0C790087A8F3 /* Refresh control improvements-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Refresh control improvements-Info.plist"; sourceTree = "<group>"; };
 		8075350317DF0C790087A8F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8075350517DF0C790087A8F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8075350717DF0C790087A8F3 /* Refresh control improvements-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Refresh control improvements-Prefix.pch"; sourceTree = "<group>"; };
 		8075350817DF0C790087A8F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8075350917DF0C790087A8F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8075350B17DF0C790087A8F3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -34,6 +32,8 @@
 		8075352917DF0C980087A8F3 /* SWMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWMainViewController.m; sourceTree = "<group>"; };
 		8075352F17DF18330087A8F3 /* SWRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRefreshControl.h; sourceTree = "<group>"; };
 		8075353017DF18330087A8F3 /* SWRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRefreshControl.m; sourceTree = "<group>"; };
+		8075353617DF1B160087A8F3 /* Refresh control improvements-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Refresh control improvements-Info.plist"; sourceTree = "<group>"; };
+		8075353717DF1B160087A8F3 /* Refresh control improvements-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Refresh control improvements-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,10 +95,10 @@
 		8075350017DF0C790087A8F3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8075350117DF0C790087A8F3 /* Refresh control improvements-Info.plist */,
+				8075353617DF1B160087A8F3 /* Refresh control improvements-Info.plist */,
+				8075353717DF1B160087A8F3 /* Refresh control improvements-Prefix.pch */,
 				8075350217DF0C790087A8F3 /* InfoPlist.strings */,
 				8075350517DF0C790087A8F3 /* main.m */,
-				8075350717DF0C790087A8F3 /* Refresh control improvements-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -272,8 +272,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "refresh test/Refresh control improvements-Prefix.pch";
-				INFOPLIST_FILE = "refresh test/Refresh control improvements-Info.plist";
+				GCC_PREFIX_HEADER = "Refresh control improvements/Refresh control improvements-Prefix.pch";
+				INFOPLIST_FILE = "Refresh control improvements/Refresh control improvements-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "Refresh control improvements";
 				WRAPPER_EXTENSION = app;
@@ -286,8 +286,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "refresh test/Refresh control improvements-Prefix.pch";
-				INFOPLIST_FILE = "refresh test/Refresh control improvements-Info.plist";
+				GCC_PREFIX_HEADER = "Refresh control improvements/Refresh control improvements-Prefix.pch";
+				INFOPLIST_FILE = "Refresh control improvements/Refresh control improvements-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "Refresh control improvements";
 				WRAPPER_EXTENSION = app;
@@ -313,6 +313,7 @@
 				8075352417DF0C790087A8F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
